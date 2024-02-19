@@ -1,0 +1,66 @@
+.pather {
+	// .pather__h1
+
+	&__h1 {
+		margin: 93px 0 0 93px;
+
+		font-family: Manrope;
+		font-size: 107px;
+		font-weight: 400;
+		line-height: 110px;
+		letter-spacing: 7px;
+		// text-align: center;
+	}
+
+	// .pather__p
+
+	&__p {
+		width: 753px;
+		height: 192px;
+
+		margin: 62px 0 0 224px;
+
+		font-family: Manrope;
+		font-size: 42px;
+		font-weight: 400;
+		line-height: 48px;
+		letter-spacing: 1.5px;
+		text-align: center;
+	}
+
+	// .pather__try-btn
+
+	&__try-btn {
+		margin: 45px 0 0 220px;
+	}
+
+	// .pather__free-period-p
+
+	&__free-period-p {
+		margin: 40px 0 934px 407px;
+	}
+}
+
+.try-btn {
+	width: 761px;
+	height: 88px;
+
+	border: none;
+	border-radius: 15px;
+	background-color: #000000;
+
+	color: $color-limon-yellow;
+	font-family: Manrope;
+	font-size: 41px;
+	font-weight: 400;
+	line-height: 58px;
+	letter-spacing: 0.800000011920929px;
+	text-align: center;
+}
+.free-period {
+	font-family: Manrope;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0em;
+}
