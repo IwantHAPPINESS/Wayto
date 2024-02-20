@@ -1,3 +1,4 @@
+@import '../mixins.scss';
 .pather {
 	// .pather__h1
 
@@ -19,12 +20,8 @@
 		height: 192px;
 
 		margin: 62px 0 0 224px;
-
-		font-family: Manrope;
 		font-size: 42px;
-		font-weight: 400;
-		line-height: 48px;
-		letter-spacing: 1.5px;
+		@include font-style;
 		text-align: center;
 	}
 
@@ -58,9 +55,10 @@
 	text-align: center;
 }
 .free-period {
-	font-family: Manrope;
+	// font-family: Manrope;
 	font-size: 20px;
-	font-weight: 400;
-	line-height: 28px;
+	// font-weight: 400;
+	// line-height: 28px;
+	@include font-style;
 	letter-spacing: 0em;
 }
