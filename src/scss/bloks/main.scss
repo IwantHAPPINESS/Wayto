@@ -5,12 +5,7 @@
 
 	&__h1 {
 		margin: 0 0 0 310px;
-
-		font-family: Manrope;
 		font-size: 101px;
-		font-weight: 400;
-		line-height: 110px;
-		letter-spacing: 7px;
 		// text-align: center;
 	}
 
@@ -20,12 +15,69 @@
 		width: 742px;
 		margin: 62px 0 0 229px;
 
-		font-size: 42px;
-		text-align: center;
-		@include font-style;
+		// font-size: 42px;
+		// text-align: center;
+		// @include font-style;
 	}
 
 	// .easy-bulder__img
+
+	&__img {
+		margin: 0 0 114px 29px;
+	}
+}
+.explain-h1 {
+	font-family: Manrope;
+	font-weight: 400;
+	line-height: 110px;
+	letter-spacing: 7px;
+}
+.explain-p {
+	font-size: 42px;
+	text-align: center;
+	@include font-style;
+}
+.super-fast {
+	// .super-fast__h1
+
+	&__h1 {
+		margin: 0 0 0 331px;
+		font-size: 99px;
+	}
+
+	// .super-fast__p
+
+	&__p {
+		width: 698px;
+		margin: 62px 0 0 251px;
+	}
+
+	// super-fast__img
+	&__img {
+		margin: 0 0 0 29px;
+	}
+}
+.low-cost {
+	// .low-cost__h1
+
+	&__h1 {
+		margin: 113px 0 62px 367px;
+		font-size: 101px;
+	}
+
+	// .low-cost__p
+
+	&__p {
+		width: 724px;
+		margin: 0 0 0 238px;
+
+		font-size: 42px;
+		line-height: 48px;
+		letter-spacing: 1.5px;
+		text-align: center;
+	}
+
+	// low-cost__img
 
 	&__img {
 		margin: 0 0 0 29px;

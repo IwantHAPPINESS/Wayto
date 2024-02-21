@@ -1,0 +1,31 @@
+.reminder {
+	// display: flex;
+	// flex-direction: column;
+	// .reminder__h1
+
+	&__h1 {
+		margin: 0 0 67px 69px;
+		font-size: 106px;
+		letter-spacing: 7px;
+	}
+
+	// .reminder__hand-img
+
+	&__hand-img {
+		width: 400px;
+		height: 225px;
+		margin: 0 100% 40px 400px;
+	}
+
+	// .reminder__btn
+
+	&__btn {
+		margin: 0 0 40px 220px;
+	}
+
+	// .reminder__free-period
+
+	&__free-period {
+		margin: 0 0 0 407px;
+	}
+}
